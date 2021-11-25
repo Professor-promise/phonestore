@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --mainBlue: #4911a1;
+  --lightBlue: #3b3b86;
+  --mainWhite: #fff;
+  --lightGrey: #e9e6e6;
+  --mainColor: #ff8800;
+  --mainGrey: rgb(53, 53, 53);
+  --mainRed: #d40707;
+  --lightRed: #991616;
+}
+
+body {
+  background: var(--lightGrey) !important;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+h1,
+h2 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 0.8rem;
+}
