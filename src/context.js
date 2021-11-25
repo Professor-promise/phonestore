@@ -86,12 +86,12 @@ class ProductProvider extends Component {
 
   addTotal = () => {
     let subTotal = 0;
-    return this.state.cart.map((item) => {
+    this.state.cart.map((item) => {
       subTotal += item.total;
-    });
     let tempTax = subTotal * 0.05;
     const tax = parseFloat(tempTax.toFixed(2));
     const total = subTotal + tax;
+    });
 
     this.setState(() => {
       return {
